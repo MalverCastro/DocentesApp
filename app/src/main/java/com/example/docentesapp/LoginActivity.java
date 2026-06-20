@@ -1,5 +1,6 @@
 package com.example.docentesapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -55,6 +56,13 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this,
                                 "Login exitoso",
                                 Toast.LENGTH_SHORT).show();
+
+                        Intent intent = new Intent(LoginActivity.this,
+                                MainActivity.class);
+
+                        startActivity(intent);
+
+                        finish();
 
                     }
                     else {
