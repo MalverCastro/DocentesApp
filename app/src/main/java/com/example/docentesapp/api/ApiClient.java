@@ -5,7 +5,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class ApiClient {
 
-    private static final String BASE_URL = "http://10.147.210.117/api_docentes/";
+    private static final String BASE_URL = "http://192.168.0.108/api_docentes/";
 
     private static Retrofit retrofit = null;
 
